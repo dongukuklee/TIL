@@ -1,3 +1,4 @@
+```jsx
 const dp = [];
 
 const fibonacci = (num) => {
@@ -5,3 +6,4 @@ const fibonacci = (num) => {
   if (dp[num] !== undefined) return dp[num];
   return (dp[num] = fibonacci(num - 1) + fibonacci(num - 2));
 };
+```
