@@ -40,7 +40,17 @@ function solution(s) {
 }
 ```
 
+다른 풀이
+
+```jsx
+function solution(s) {
+  return s
+    .split(" ")
+    .map((v) => v.charAt(0).toUpperCase() + v.substring(1).toLowerCase())
+    .join(" ");
+}
+```
+
 # 비고
 
-max 값을 찾기위해 불필요하게 반복문들 돌았다
-리팩토링 필요..
+배열, 문자열에 대한 이해도 부족.
